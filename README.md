@@ -1,8 +1,7 @@
 # Hotel Booking Application
 A sample representation of how the build project looks like: 
 # Video
-[Uploading booking-app_QZnvkG9S.webm…]()
-
+[booking-app_QZnvkG9S.webm](https://github.com/cyrusnderitu/react-booking-application/assets/65945935/fb25dcaa-32ee-4cd2-aee9-e281bee96a45)
 
 ### Built With
 * [![React][React.js]][React-url]
