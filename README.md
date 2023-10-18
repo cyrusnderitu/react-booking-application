@@ -23,7 +23,7 @@ To have a copy of the repo and build something for yourself
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/cyrusnderitu/job-app.git
+   git clone https://github.com/cyrusnderitu/react-booking-application.git
    ```
 2. Install NPM packages
    ```sh
