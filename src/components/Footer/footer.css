@@ -1,0 +1,28 @@
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.footerCont{
+    display: flex;
+    align-items: center;
+    column-gap: 10rem;
+    margin-bottom: 30px;
+}
+.footerLists>li{
+    list-style: none;
+    color: #380036;
+}
+.footerList{
+    margin-bottom: 5px;
+    font-size: .936rem;
+}
+.copyright{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #380036;
+    position: absolute;
+    bottom: 5px;
+}

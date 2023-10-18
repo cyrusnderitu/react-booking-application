@@ -1,0 +1,32 @@
+.featured{
+    width: 100%;
+    max-width: 1024px;
+}
+.featuredItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+    
+}
+.featuredItem{
+    position: relative;
+}
+.featuredImg{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: .75rem;
+    object-fit: cover;
+}
+.featuredData{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+.featuredTitle{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}

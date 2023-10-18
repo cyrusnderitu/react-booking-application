@@ -1,0 +1,135 @@
+.heroSection{
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+}
+.headerBtn{
+    border: none;
+    padding: 5px 10px;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    border-radius: .5rem;
+    background-color: #0cbaba;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+.header-container{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0 80px 0;
+}
+.headerTitle{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(219, 156, 73);
+}
+.headerLists{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+.headerListName{
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+.active{
+    border: 1px solid antiquewhite;
+    padding: 10px;
+    border-radius: .75rem;
+}
+.headerTitle{
+    margin-top: 4rem;
+}
+.headerDesc{
+    margin-bottom: 4rem;
+}
+.headerSearchArea{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -30px;
+    border: 3px solid rgb(219, 156, 73);
+    background-color: white;
+    padding: 10px 0;
+    border-radius: .5rem;
+}
+.headerSearchCont{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: lightgray;
+    column-gap: 3rem;
+}
+.headerSearchInput{
+    display: flex;
+    align-items: center;
+    column-gap: .75rem;
+}
+.headerInput{
+    border: none;
+    outline: none;
+    color: lightblue;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: black;
+    padding: 0 15px 0 0;
+}
+.headerCalender{
+    position: absolute;
+    top: 65px;
+    left: 270px;
+    z-index: 2;
+}
+.headerSearchText{
+    cursor: pointer;
+    font-size: .813rem;
+}
+.headerSearchBtn{
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+    border: none;
+    padding: 3px 9px;
+    background-color: #380036;
+    color: #fff;
+    font-size: .936rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 7px;
+}
+.optionsContainer{
+    position: absolute;
+    top: 70px;
+    right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    max-width: 200px;
+    width: 100%;
+    flex-direction: column;
+    padding: 10px 50px 25px;
+    background-color: #fcfff9;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    z-index: 2;
+}
+.optionsField{
+    width: calc(100% + 4rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.optionsChanges{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 7px;
+}
+.optionsBtn{
+    padding: 1px 4px;
+}

@@ -1,0 +1,99 @@
+.listContainer{
+    display: flex;
+    justify-content: center;
+}
+.listWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+}
+.listSearch{
+    flex: 1;
+    background-color: rgb(219, 156, 73);
+    padding: 10px;
+    border-radius: .5rem;
+    position: sticky;
+    margin-top: 20px;
+    top: 20px;
+    height: fit-content;
+}
+.lsTitle{
+    color: #380036;
+    font-size: 1.5rem;
+}
+.lsItem{
+    margin-bottom: 15px;
+}
+.checkInItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.lsItem .checkIn{
+    margin-bottom: -23px;
+}
+.lsItem>h4{
+    font-size: .900rem;
+}
+label{
+    font-size: .940rem;
+    font-weight: 500;
+    color: white;
+}
+.lsSearchInput{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: .25rem;
+    border: none;
+    text-indent: 1rem;
+    outline: none;
+    width: 230px;
+}
+.listResults{
+    flex: 3;
+    margin-left: 20px;
+}
+.listSearchText{
+    background-color: #fff;
+    padding: 10px 25px;
+    border-radius: .25rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: .900rem;
+}
+.listCalender{
+    margin-top: 15px;
+}
+.lsOptionsItems{
+    margin-left: 10px;
+}
+.lsOptionsItem{
+    display: flex;
+    align-items: center;justify-content: space-between;
+    margin-bottom: 10px;
+}
+.lsOptionsInput{
+    width: 50px;
+    height: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    text-indent: 5px;
+}
+.lsOptionsSearch{
+    border: none;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: .5rem;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #380036;
+    color: #fff;
+    outline: none;
+}
+.lsOptionTitle{
+    font-size: .813rem;
+}

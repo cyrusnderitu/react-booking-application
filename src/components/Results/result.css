@@ -1,0 +1,113 @@
+.results{
+    width: 100%;
+}
+.resultsCont{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-top: 20px;
+}
+.resultsItem{
+    box-shadow: rgba(149, 157, 165, 0.2) 5px 10px 25px; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    padding: 20px 10px;
+    border-radius: .5rem;
+}
+.resultsImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    align-self: center;
+}
+.resultsTitle{
+    font-weight: 700;
+    color: #0cbaba;
+    font-size: 14px;
+}
+.resultsDistance{
+    font-size: .813rem;
+}
+.resultsAccomodation{
+    display: grid;
+}
+.resultsTaxi{
+    background-color: #380036;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: .5rem;
+    font-family: 'Poppins', sans-serif;
+    width: 100px;
+    margin-top: 10px;
+}
+.resultsDesc{
+    margin-bottom: -20px;
+}
+.resultsDesc .descSub{
+    font-weight: 700;
+    margin-bottom: -10px;
+    font-size: 10px;
+}
+.resultsDesc .desc{
+    font-size: 10px;
+}
+.resultsInfo{
+    color: #380036;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.resultsLock{
+    color: #380036;
+    font-weight: 200;
+    font-size: 12px;
+}
+.resultsData{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 15px;
+}
+.resultsRating{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5rem;
+    align-items: center;
+}
+.resultsRating .resultsRate{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(219, 156, 73);
+    border-radius: .35rem;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+.resultsAvail{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.resultsAvail .resultsPriceDesc{
+    font-size: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.resultsAvail .resultsPrice{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.resultsOpen{
+    background-color: #0cbaba;
+    padding: 10px 7px;
+    border-radius: .5rem;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+}
